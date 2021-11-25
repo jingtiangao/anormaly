@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Research</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/sitelogo.png" alt="" /></span><span class="title">Home</span>
+								</a>
+
+							<!-- Nav -->
+							
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+							
+						</div>
+					</header>
+
+				<!-- Menu -->
+				<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="https://jingtiangao.github.io/">Home</a></li>
+							<li><a href="https://jingtiangao.github.io/">Bio</a></li>
+							<li><a href="https://jingtiangao.github.io/">Publications</a></li>
+							<!-- <li><a href="elements.html">Elements</a></li> -->
+						</ul>
+					</nav>
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Visualization of anomaly detection in Huawei optical network sensor data</h1>
+							
+												<p>The original data is sampled on the whole hour, and all the data of the day before the fault data is extracted.</p> 
+
+											<p> 1. The historical data of the second half of the failure time that occurred within one hour (for example, the failure occurred at 2:58 minutes). The temperature, transmit power, and receive power within the previous day did not show obvious characteristics of change. Such data probably accounted for Probably more than half of the total data</p>
+											<p>2. There are a small number of historical data showing the characteristics of the failure. For example, the C3 dimension of the normal data is [565,565,565], and the actual C3 dimension of the error data before the failure is [565,0.1,565]; normal data [565,565,565], The actual error data C3 dimension before the failure is [0.1,0.1,0.1] </p>
+											<p> 3. There is also a type of fault history data related to the module ID, such as 14160:0:0:1 and 14160:0:0:0 equipment faults almost at the same time, and the historical data changes are similar</p>
+											<p>guess </p>
+											<p> 1. For a device that failed at 2:58, the device may be working normally at 2:00, and a sudden change occurred within an hour that caused the device to fail, so its historical data may be meaningless at this time.</p>
+											<p> 2. The equipment failure may be related to the module ID. It is conjectured that the failure of one module may increase the probability of failure of other similar modules.</p>
+											<p>3. The C2, C3, and C4 dimensions of the data fluctuate within a certain range, and it may be possible to predict its failure probability </p>
+
+
+							
+                             
+                            
+							
+						</div>
+
+					</div>
+
+				<!-- Footer -->
+				<!--
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Get in touch</h2>
+								<form method="post" action="#">
+									<div class="field half first">
+										<input type="text" name="name" id="name" placeholder="Name" />
+									</div>
+									<div class="field half">
+										<input type="email" name="email" id="email" placeholder="Email" />
+									</div>
+									<div class="field">
+										<textarea name="message" id="message" placeholder="Message"></textarea>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="special" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+									<li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
+									<li><a href="#" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon style2 fa-500px"><span class="label">500px</span></a></li>
+									<li><a href="#" class="icon style2 fa-phone"><span class="label">Phone</span></a></li>
+									<li><a href="#" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+				-->
+					<footer>
+						<div class="inner">
+							
+							<ul class="copyright">
+								<li>&copy; chuyang gao. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+
+					</footer
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
